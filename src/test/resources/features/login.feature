@@ -1,6 +1,6 @@
-Feature: Login
+Feature: Login Page
 
-  Scenario: Successful login
+  Scenario: Successful Login
     Given the User is on SauceDemo login page
     When the user enters the correct user and password
     Then the user should see the Welcome message
